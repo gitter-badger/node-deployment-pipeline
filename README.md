@@ -1,24 +1,29 @@
-# status   ![alt text](https://travis-ci.org/danval85/gulp-framework.svg?branch=master)
+<h1 align="center">node-deployment-pipeline</h1>
 
-# Deployment Pipeline with Node.js
+<h5 align="center">A full stack Node.js application with continuous delivery & test driven development.</h5>
 
-### Continuous Delivery and Test Driven Development
+<div align="center">
+    <img src="https://travis-ci.org/danval85/gulp-framework.svg?branch=master" alt="Travis CI" />
+</div>
 
-A full stack Node.js application with continuous delivery & test driven development.
+<br />
 
 ## Features
 
-- express.js web framework
-- gulp.js development & workflow framework
-- less.js css preprocessor
-- mocha.js testing framework
-- chai.js assertion library
-- cheerio.js subset of core jQuery
-- istanbul.js test coverage reporting
+- commit testsuite in accordance with continuos integration practives
 
-- eslint for consistent code & linting
-- editorconfig for consistent coding styles
+## Technologies
 
-- git for version control
-- travis for continuous delivery
-- s3, ec2 and codedeploy AWS services
+- git
+- express.js
+- gulp.js
+- less.js
+- mocha.js
+- chai.js
+- cheerio.js
+- istanbul.js
+- eslint
+- editorconfig
+- travis
+- codedeploy
+- aws
