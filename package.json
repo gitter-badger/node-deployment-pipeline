@@ -1,0 +1,51 @@
+{
+  "name": "node-deployment-pipeline",
+  "version": "1.0.0",
+  "description": "A full stack nodejs app with continuous delivery & test driven development.",
+  "scripts": {
+    "start": "node express.js",
+    "coverage": "./node_modules/.bin/istanbul cover --report cobertura ./node_modules/.bin/_mocha --"
+  },
+  "author": {
+    "name": "Daniel Valentine",
+    "url": "https://github.com/danval85",
+    "email": "daniel.valentine1985@gmail.com"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "cheerio": "^1.0.0-rc.2",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "gulp": "^3.9.1",
+    "gulp-bump": "^2.8.0",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-git": "^2.4.2",
+    "gulp-header": "^1.8.9",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-less": "^3.3.2",
+    "gulp-mocha": "^4.3.1",
+    "gulp-nsp": "^2.4.2",
+    "gulp-plumber": "^1.1.0",
+    "gulp-refresh": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-strip-comments": "^2.4.5",
+    "gulp-strip-css-comments": "^1.2.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^4.3.11",
+    "istanbul": "^0.4.5",
+    "request": "^2.83.0",
+    "run-sequence": "^2.2.0",
+    "string": "^3.3.3"
+  },
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "serve-favicon": "^2.4.5"
+  }
+}
